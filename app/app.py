@@ -15,18 +15,18 @@ import time
 from sklearn.utils.extmath import softmax
 
 # === Load Models & Preprocessors ===
-task_model = joblib.load("../models/final_task_type_classifier_svm.pkl")
-priority_model = joblib.load("../models/final_priority_xgboost_model.pkl")
+task_model = joblib.load("./models/final_task_type_classifier_svm.pkl")
+priority_model = joblib.load("./models/final_priority_xgboost_model.pkl")
 
-status_encoder = joblib.load("../models/status_label_encoder.pkl")
-priority_encoder = joblib.load("../models/priority_label_encoder.pkl")
-task_type_encoder = joblib.load("../models/task_type_label_encoder.pkl")
-tfidf_vectorizer = joblib.load("../models/task_type_tfidf_vectorizer.pkl")
+status_encoder = joblib.load("./models/status_label_encoder.pkl")
+priority_encoder = joblib.load("./models/priority_label_encoder.pkl")
+task_type_encoder = joblib.load("./models/task_type_label_encoder.pkl")
+tfidf_vectorizer = joblib.load("./models/task_type_tfidf_vectorizer.pkl")
 
 # === Load Dataset for EDA Page ===
 @st.cache_data
 def load_data():
-    return pd.read_csv("../data/refined_dataset.csv")
+    return pd.read_csv("./data/refined_dataset.csv")
 data = load_data()
 
 # === Custom Styling ===
