@@ -48,7 +48,15 @@ Here's the folder structure converted into Markdown format:
 Ai-Task-Management/
 │
 │──📁 Python Notebooks/
-│ └── app.py
+│ └── EDA Updated.ipynb
+│ └── Feature Extraction Updated.ipynb
+│ └── Finalizing the Model and Encoders.ipynb
+│ └── Hyper Parameter Tuning.ipynb
+│ └── NLP Processing Updated.ipynb
+│ └── Priority Prediction.ipynb
+│ └── Task Classification.ipynb
+│ └── Workload Balancing using Heuristic or ML approach.ipynb
+│ └── refined_dataset.csv
 │
 ├── 📁 app/
 │ └── app.py # Main Streamlit dashboard
