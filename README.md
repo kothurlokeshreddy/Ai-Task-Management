@@ -45,7 +45,10 @@ The goal is to help organizations or individuals **automatically understand task
 
 Here's the folder structure converted into Markdown format:
 ```
-Task Prediction Dashboard/
+Ai-Task-Management/
+│
+│──📁 Python Notebooks/
+│ └── app.py
 │
 ├── 📁 app/
 │ └── app.py # Main Streamlit dashboard
